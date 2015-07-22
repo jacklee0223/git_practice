@@ -1,0 +1,58 @@
+/*p.serif{
+  font-family: "Times New Roman", Times, Serif;
+}
+
+p.sansserif{
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+p.monospace{
+  font-family: 'Courier New', 'Lucida Console', Monospace;
+}
+*/
+/*.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#notbold{
+  font-weight: 100;
+}
+
+div{
+    font-size: .75em;
+}
+
+.rem-text{
+    font-size: 1rem;
+
+}
+
+.em-text{
+  font-size: 1em;
+}
+*/
+
+@media only screen and (max-width: 500px){
+    body{
+      font-size: 20em;
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    body{
+      font-size: 15em;
+      background-color: lightgreen;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    body{
+      font-size: 10em;
+      background-color: red;
+    }
+}
